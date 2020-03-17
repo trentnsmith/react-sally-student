@@ -7,7 +7,6 @@
 </head>
     <body>
         <div id="application-root"></div>
-
     <script
     src="https://unpkg.com/react@16/umd/react.development.js">
     </script>
@@ -19,34 +18,39 @@
     </script>
     <script type="text/babel">
         function App() {
-         return (
-            <header>
-                <h1>Sally Student Resume</h1>
-            </header>            
-                <section>
-                    <p>Email - exampleemail@email.com</p>
-                    <p>Phone - 987-654-3210</p>
-                </section>
-                <img src='https://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg'/>
-                <section>
-                    <h2>Education</h2>
-                    <p>University of Nebraska Omaha - Bachelor in Business Administration</p>
-                </section>
-                <section>
-                    <h2>Employment</h2>
-                    <h3>Microsoft - Web Developer Jan 2019- to Dec 2019</h3>
-                        <p>Responsibilities Included:</p>
-                            <ul>
-                                <li>Using HTML, CSS, and JavaScript</li>
-                                <li>Front End Development</li>
-                            </ul>
-                    <h3>Google - Front End Developer Jan 2018 to Dec 2018</h3>
-                        <p>Responsibilities Included:</p>
-                            <ul>
-                                <li>Code for webpage</li>
-                                <li>asdfjciasd asdfasdfi alasdkfasdfijpj</li>
-                            </ul>
-                </section>               
+         return ( 
+            <div className='container'> 
+                <header>
+                    <h1>Sally Student Resume</h1>
+                </header>
+
+                <main>            
+                    <section>
+                        <p>Email - exampleemail@email.com</p>
+                        <p>Phone - 987-654-3210</p>
+                    </section>
+                    <img src='https://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg'/>
+                    <section>
+                        <h2>Education</h2>
+                        <p>University of Nebraska Omaha - Bachelor in Business Administration</p>
+                    </section>
+                    <section>
+                        <h2>Employment</h2>
+                        <h3>Microsoft - Web Developer Jan 2019- to Dec 2019</h3>
+                            <p>Responsibilities Included:</p>
+                                <ul>
+                                    <li>Using HTML, CSS, and JavaScript</li>
+                                    <li>Front End Development</li>
+                                </ul>
+                        <h3>Google - Front End Developer Jan 2018 to Dec 2018</h3>
+                            <p>Responsibilities Included:</p>
+                                <ul>
+                                    <li>Code for webpage</li>
+                                    <li>asdfjciasd asdfasdfi alasdkfasdfijpj</li>
+                                </ul>
+                    </section>
+                </main>   
+            </div>                    
             )
         }
 
